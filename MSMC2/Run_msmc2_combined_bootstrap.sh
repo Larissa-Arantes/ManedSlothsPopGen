@@ -11,12 +11,11 @@ module load BCFtools/1.11-GCC-10.2.0
 ####################################        Installation instructions        ####################################################
 #################################################################################################################################
 
-#Installation
 #wget https://github.com/stschiff/msmc2/releases/download/v2.1.4/msmc2_Linux
 #chmod 775 msmc2_Linux
 #Get following scripts:
-#https://github.com/stschiff/msmc-tools/blob/master/vcfAllSiteParser.py
-#https://github.com/stschiff/msmc-tools/blob/master/generate_multihetsep.py
+#wget https://github.com/stschiff/msmc-tools/blob/master/vcfAllSiteParser.py
+#wget https://github.com/stschiff/msmc-tools/blob/master/generate_multihetsep.py
 
 #################################################################################################################################
 ######################## 1) Generate input using vcf files and mask files for each chromosome ###################################
@@ -57,7 +56,3 @@ done
 #-i, --maxIterations=<size_t> : number of EM-iterations [default=20]
 #-t, --nrThreads=<size_t> : nr of threads to use (defaults to nr of CPUs)
 #-I, --pairIndices: a single comma-separated list like this "-I 0,1,4,5", the program will run over all pairs of haplotypes within #this set of indices.  A list of pairs, like this: "-I 0-1,2-3,4-5", program will run only those specified pairs.
-
-#wget https://github.com/jessicarick/msmc2_scripts/blob/master/msmc_2_generateInput_singleInd.sh
-#chmod 775 /scratch/larissasa/programs/msmc_2_generateInput_singleInd.sh
-
