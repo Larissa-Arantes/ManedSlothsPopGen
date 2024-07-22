@@ -1,5 +1,4 @@
-#THIS SCRIPT DID NOT WORK WHEN WE RUN SBATCH SCRIPT, BUT IT WORKED RUNNING IN THE TERMINAL.
-#SO OPEN A SCREEN AND RUN IT
+
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 #          Installation           #
@@ -10,9 +9,8 @@
 #singularity pull docker://mussmann/admixpipe:3.2
 #git clone https://github.com/stevemussmann/admixturePipeline.git
 #cd admixturePipeline
-#singularity run -B /scratch/larissasa/programs -B /scratch/larissasa/cardinal /scratch/larissasa/programs/admixpipe_3.2.sif
+#singularity run -B /scratch/larissasa/programs -B /scratch/larissasa/bradypus /scratch/larissasa/programs/admixpipe_3.2.sif
 #-B to bind correct folders is essential for recognizing softwares from the container (it should read python from the container and not my python)
-
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 #     Iniciate screen             #
