@@ -1,15 +1,7 @@
 #!/bin/bash
 #SBATCH -J snpEff
 #SBATCH --mail-type=END,FAIL
-#SBATCH --mail-user=larissasa@zedat.fu-berlin.de
-#SBATCH --partition=begendiv,main
-#SBATCH --qos=standard
-#SBATCH --nodes=1
-#SBATCH --ntasks-per-node=1
-#SBATCH --mem=3G
-#SBATCH --time=2-00:00:00
-#SBATCH -o /scratch/larissasa/bradypus/09_Resequencing/11_snpEff/02_snpeff_maxmiss_0.8/jobs/extractcategories.%j.out
-#SBATCH -e /scratch/larissasa/bradypus/09_Resequencing/11_snpEff/02_snpeff_maxmiss_0.8/jobs/extractcategories.%j.err
+...
 
 cd /scratch/larissasa/bradypus/09_Resequencing/11_snpEff/02_snpeff_maxmiss_0.8
 VCF="/scratch/larissasa/bradypus/09_Resequencing/11_snpEff/02_snpeff_maxmiss_0.8/BraTor_pop_maxmiss_0.8.ann.vcf"
