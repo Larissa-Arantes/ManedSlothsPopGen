@@ -1,14 +1,6 @@
 #!/bin/bash
 #SBATCH -J PCA
-#SBATCH --mail-type=END,FAIL
-#SBATCH --mail-user=larissasa@zedat.fu-berlin.de
-#SBATCH --partition=begendiv,main
-#SBATCH --qos=standard
-#SBATCH --cpus-per-task=10
-#SBATCH --mem=1G
-#SBATCH --time=24:00:00
-#SBATCH -o /scratch/larissasa/bradypus/09_Resequencing/x_scripts/logs/PCA.%j.out
-#SBATCH -e /scratch/larissasa/bradypus/09_Resequencing/x_scripts/logs/PCA.%j.err
+...
 
 export PATH="/scratch/larissasa/miniconda/bin:${PATH}"
 source activate psmc
